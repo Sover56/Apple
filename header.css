@@ -1,0 +1,42 @@
+header{
+  z-index: 10;
+
+  background-color: rgba(22, 22, 23, 0.8);
+  backdrop-filter: blur(25px);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.main{
+  width: 0;
+  max-width: 1000px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.836);
+  font-weight: 400;
+
+}
+
+.apple-png{
+  width: 18px;
+}
+
+.search-png,.bag-png{
+  width: 20px;
+}
+
+
